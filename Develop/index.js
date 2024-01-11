@@ -1,13 +1,35 @@
-// TODO: Include packages needed for this application
+// Include packages needed for this application
+const inquirer = require('inquirer');
+const fs = require('fs');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+// Create an array of questions for user input
+const questions = [
+    {
+    name: 'title',
+    message: 'What is the title of your project?'
+    },
+]
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+// Create a function to write README file
+function writeToFile(fileName, data) {
 
-// TODO: Create a function to initialize app
-function init() {}
+    fs.writeFile(fileName, data, (err) =>
 
-// Function call to initialize app
-init();
+    err ? console.error(err) : console.log('README.md generated') 
+
+);
+}
+
+// Create a function to initialize app
+function startReadMeGenerator() {
+    inquirer.prompt(questions)
+    .then((answers) => {
+
+      const readmeContent = generateReadme(answers); //generates the readME content using the answers object
+
+      writeToFile('generatedREADME.md', readmeContent); // defines file name and writes all the info in
+    })
+    .catch((error) => console.error(error)); //triggers if theres an error
+}
+
+startReadMeGenerator();
