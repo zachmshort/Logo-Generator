@@ -8,6 +8,19 @@ const questions = [
     name: 'title',
     message: 'What is the title of your project?'
     },
+    {
+    name: 'name',
+    message: 'What are the names of the contributors?'
+    },
+    {
+    name: 'title',
+    message: 'What is the title of your project?'
+    },
+    {
+    name: 'title',
+    message: 'What is the title of your project?'
+    },
+
 ]
 
 // Create a function to write README file
@@ -18,6 +31,10 @@ function writeToFile(fileName, data) {
     err ? console.error(err) : console.log('README.md generated') 
 
 );
+}
+function generateReadme(answers) {
+    
+    return `This is a README file by Zach Short for the project titled "${answers.title}".`;
 }
 
 // Create a function to initialize app
