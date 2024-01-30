@@ -88,7 +88,7 @@ function generateReadme(answers) {
 - [Contribution Guidelines](#contribution-guidelines)
 - [Testing Instructions](#testing-instructions)
 - [Questions](#questions)
-\n\n### Application Description\n\n${answers.desc}\n\n### Installation Instructions\n\n${answers.instalIns}\n\n### Usage Info\n\n${answers.usageInfo}\n\n### Contribution Guidelines\n\n${answers.guidelines}\n\n### Testing Instructions\n\n${answers.testIns}\n\n#### Questions?\n\nPlease email me at [${answers.email}](mailto:${answers.email})Link to my [Github](https://www.github.com/${answers.github})`;
+\n\n### Application Description\n${answers.desc}\n\n### Installation Instructions\n${answers.instalIns}\n\n### Usage Info\n${answers.usageInfo}\n\n### Contribution Guidelines\n${answers.guidelines}\n\n### Testing Instructions\n${answers.testIns}\n\n#### Questions?\nPlease email me at [${answers.email}](mailto:${answers.email})\nLink to my [Github](https://www.github.com/${answers.github})`;
 }
 
 
