@@ -81,32 +81,14 @@ function writeToFile(fileName, data) {
 function generateReadme(answers) {
 
     const licenseBadge = `![License Badge](https://img.shields.io/badge/${answers.license}-brightgreen)`;
-
-    return `# ${answers.title}
-    \n\n ${licenseBadge}
-    \n\n ${answers.names} contributed to this project.
-    \n\n**Important Notice:** This project is released under the ${answers.license} license.
-    \n\n## Table of Contents
-    - [Application Description](#application-description)
-    - [Installation Instructions](#installation-instructions)
-    - [Usage Info](#usage-info)
-    - [Contribution Guidelines](#contribution-guidelines)
-    - [Testing Instructions](#testing-instructions)
-    - [Questions](#questions)
-    \n\n### Application Description
-    \n\n${answers.desc}
-    \n\n### Installation Instructions
-    \n\n ${answers.instalIns}
-    \n\n### Usage Info
-    \n\n ${answers.usageInfo}
-    \n\n### Contribution Guidelines
-    \n\n${answers.guidelines}
-    \n\n### Testing Instructions
-    \n\n ${answers.testIns}
-    \n\n#### Questions?
-    \n\nPlease email me at [${answers.email}](mailto:${answers.email})
-    \n\nLink to my [Github](https://www.github.com/${answers.github})`;
-
+    return `# ${answers.title}\n\n${licenseBadge}\n\n${answers.names} contributed to this project.\n\n**Important Notice:** This project is released under the ${answers.license} license.\n\n## Table of Contents
+- [Application Description](#application-description)
+- [Installation Instructions](#installation-instructions)
+- [Usage Info](#usage-info)
+- [Contribution Guidelines](#contribution-guidelines)
+- [Testing Instructions](#testing-instructions)
+- [Questions](#questions)
+\n\n### Application Description\n\n${answers.desc}\n\n### Installation Instructions\n\n${answers.instalIns}\n\n### Usage Info\n\n${answers.usageInfo}\n\n### Contribution Guidelines\n\n${answers.guidelines}\n\n### Testing Instructions\n\n${answers.testIns}\n\n#### Questions?\n\nPlease email me at [${answers.email}](mailto:${answers.email})Link to my [Github](https://www.github.com/${answers.github})`;
 }
 
 
