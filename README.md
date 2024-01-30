@@ -1,33 +1,29 @@
-## a
+# Project
 
-a contributed to this project.
+Zach contributed to this project.
 
-# Industry of this Application
-
-Information Technology
-
-# Application Description
+## Application Description
 
 a
 
-# Installation Instructions
+## Installation Instructions
 
 a
 
-# Usage Info
+## Usage Info
 
 a
 
-# Contribution Guidlines
+## Contribution Guidlines
 
 undefined
 
-# Testing Instructions
+## Testing Instructions
 
 a
 
 Other
 
-Questions? Learn more [here](https://www.github.com/zachmshort)
+### Questions? Learn more [here](https://www.github.com/zachmshort)
 
-Email:a
+### Email:a

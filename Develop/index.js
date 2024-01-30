@@ -83,7 +83,7 @@ function writeToFile(fileName, data) {
 }
 function generateReadme(answers) {
 
-    return `## ${answers.title}\n\n${answers.names} contributed to this project.\n\n# Industry of this Application\n\n ${answers.industry}\n\n# Application Description\n\n${answers.desc}\n\n# Installation Instructions\n\n ${answers.instalIns}\n\n# Usage Info\n\n ${answers.usageInfo}\n\n# Contribution Guidlines\n\n ${answers.guidlines}\n\n# Testing Instructions\n\n ${answers.testIns}\n\n${answers.license}\n\nQuestions? Learn more [here](https://www.github.com/${answers.github})\n\nEmail:${answers.email}`;
+    return `# ${answers.title}\n\n${answers.names} contributed to this project.\n\n## Application Description\n\n${answers.desc}\n\n## Installation Instructions\n\n ${answers.instalIns}\n\n## Usage Info\n\n ${answers.usageInfo}\n\n## Contribution Guidlines\n\n ${answers.guidlines}\n\n## Testing Instructions\n\n ${answers.testIns}\n\n${answers.license}\n\n ### Questions? Learn more [here](https://www.github.com/${answers.github})\n\n### Email:${answers.email}`;
 
 }
 
