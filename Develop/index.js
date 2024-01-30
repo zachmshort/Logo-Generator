@@ -57,12 +57,7 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please select which license the application is covered under.',
-    choices: [
-        'MIT',
-        'Apache-2.0',
-        'GPL-3.0',
-        'Other'
-    ]
+    choices: ['MIT', 'Apache-2.0', 'GPL-3.0', 'Other'],
     },
     {
     name: 'github',
@@ -85,11 +80,21 @@ function writeToFile(fileName, data) {
 }
 function generateReadme(answers) {
 
-    const licenseBadge = `![License](https://img.shields.io/badge/license-${answers.license}-brightgreen)`;
+    const licenseBadge = `![License](https://img.shields.io/badge/${answers.license}-brightgreen)`;
 
-    return `# ${answers.title}\n\n${answers.names} contributed to this project.\n\n### Application Description\n\n${answers.desc}\n\n### Installation Instructions\n\n ${answers.instalIns}\n\n### Usage Info\n\n ${answers.usageInfo}\n\n## Contribution Guidelines\n\n ${answers.guidelines}\n\n### Testing Instructions\n\n ${answers.testIns}\n\n${licenseBadge}\n\n #### Questions? Learn more [here](https://www.github.com/${answers.github})\n\n#### Email:${answers.email}`;
+    return `# ${answers.title}\n\n
+    ${licenseBadge}\n\n
+    ${answers.names} contributed to this project.\n\n
+    ### Application Description\n\n${answers.desc}\n\n
+    ### Installation Instructions\n\n ${answers.instalIns}\n\n
+    ### Usage Info\n\n ${answers.usageInfo}\n\n
+    ## Contribution Guidelines\n\n${answers.guidelines}\n\n
+    ### Testing Instructions\n\n ${answers.testIns}\n\n
+    #### [Github](https://www.github.com/${answers.github})\n\n
+    #### Questions? Please email me at [${answers.email}](mailto:${answers.email})`;
 
 }
+
 
 // Create a function to initialize app
 function startReadMeGenerator() {

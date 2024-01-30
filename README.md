@@ -1,29 +1,32 @@
-# My Project
+# Project
 
-Zacg contributed to this project.
+    ![License](https://img.shields.io/badge/GPL-3.0-brightgreen)
 
-### Application Description
 
-Desc\
+    Zach contributed to this project.
 
-### Installation Instructions
 
-a
+    ### Application Description
 
-### Usage Info
+desc
 
-a
+    ### Installation Instructions
 
-## Contribution Guidelines
+install ins
 
-a
+    ### Usage Info
 
-### Testing Instructions
+usage info
 
-a
+    ## Contribution Guidelines
 
-![License](https://img.shields.io/badge/license-GPL-3.0-brightgreen)
+Contr
 
-#### Questions? Learn more [here](https://www.github.com/zachmshort)
+    ### Testing Instructions
 
-#### Email:a
+Test
+
+    #### [Github](https://www.github.com/zachmshort)
+
+
+    #### Questions? Please email me at [shortzach396@gmail.com](mailto:shortzach396@gmail.com)
