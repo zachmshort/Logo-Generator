@@ -47,7 +47,7 @@ const questions = [
     },
     {
     name: 'guidelines',
-    message: 'Please provide contribution guidlines for your users.'
+    message: 'Please provide contribution guidelines for your users.'
     },
     {
     name: 'testIns',
@@ -57,10 +57,12 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Please select which license the application is covered under.',
-    choices: 
-        [
-            'Other'
-        ]
+    choices: [
+        'MIT',
+        'Apache-2.0',
+        'GPL-3.0',
+        'Other'
+    ]
     },
     {
     name: 'github',
@@ -83,7 +85,9 @@ function writeToFile(fileName, data) {
 }
 function generateReadme(answers) {
 
-    return `# ${answers.title}\n\n${answers.names} contributed to this project.\n\n## Application Description\n\n${answers.desc}\n\n## Installation Instructions\n\n ${answers.instalIns}\n\n## Usage Info\n\n ${answers.usageInfo}\n\n## Contribution Guidlines\n\n ${answers.guidlines}\n\n## Testing Instructions\n\n ${answers.testIns}\n\n${answers.license}\n\n ### Questions? Learn more [here](https://www.github.com/${answers.github})\n\n### Email:${answers.email}`;
+    const licenseBadge = `![License](https://img.shields.io/badge/license-${answers.license}-brightgreen)`;
+
+    return `# ${answers.title}\n\n${answers.names} contributed to this project.\n\n### Application Description\n\n${answers.desc}\n\n### Installation Instructions\n\n ${answers.instalIns}\n\n### Usage Info\n\n ${answers.usageInfo}\n\n## Contribution Guidelines\n\n ${answers.guidelines}\n\n### Testing Instructions\n\n ${answers.testIns}\n\n${licenseBadge}\n\n #### Questions? Learn more [here](https://www.github.com/${answers.github})\n\n#### Email:${answers.email}`;
 
 }
 

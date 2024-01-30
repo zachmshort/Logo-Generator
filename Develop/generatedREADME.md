@@ -1,29 +1,29 @@
-# Project
+# My Project
 
-Zach contributed to this project.
+Zacg contributed to this project.
 
-## Application Description
+### Application Description
 
-a
+Desc\
 
-## Installation Instructions
-
- a
-
-## Usage Info
+### Installation Instructions
 
  a
 
-## Contribution Guidlines
-
- undefined
-
-## Testing Instructions
+### Usage Info
 
  a
 
-Other
+## Contribution Guidelines
 
- ### Questions? Learn more [here](https://www.github.com/zachmshort)
+ a
 
-### Email:a
+### Testing Instructions
+
+ a
+
+![License](https://img.shields.io/badge/license-GPL-3.0-brightgreen)
+
+ #### Questions? Learn more [here](https://www.github.com/zachmshort)
+
+#### Email:a
