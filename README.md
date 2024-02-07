@@ -1,41 +1,59 @@
-# Project
-
-![License Badge](https://img.shields.io/badge/MIT-brightgreen)
-
-Zach contributed to this project.
-
-**Important Notice:** This project is released under the MIT license.
+# README Generator
 
 ## Table of Contents
 
-- [Application Description](#application-description)
-- [Installation Instructions](#installation-instructions)
-- [Usage Info](#usage-info)
-- [Contribution Guidelines](#contribution-guidelines)
-- [Testing Instructions](#testing-instructions)
-- [Questions](#questions)
+  - [Description](#description)
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributing](#contributing)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-### Application Description
+## Description
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+The README Generator is a command-line application that generates high-quality README files for your projects. It prompts users with a series of questions about their project, including the project title, description, installation instructions, usage information, contribution guidelines, testing instructions, and contact information. Based on the user's responses, the application dynamically generates a professional README file in Markdown format, ready to be included in the project repository.
 
-### Installation Instructions
+## Installation
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+To install the README Generator, follow these steps:
 
-### Usage Info
+1. Clone the repository to your local machine.
+2. Navigate to the project directory.
+3. Install the necessary dependencies by running `npm install`.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+## Usage
 
-### Contribution Guidelines
+To use the README Generator, follow these steps:
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+1. Open a terminal or command prompt.
+2. Navigate to the project directory.
+3. Run the application using the command `node index.js`.
+4. Answer the prompted questions about your project.
+5. Once all questions are answered, the application will generate a README file named `generatedREADME.md` in the project directory.
 
-### Testing Instructions
+## Contributing
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+Contributions to the README Generator are welcome! To contribute:
 
-#### Questions?
+1. Fork the repository.
+2. Create a new branch for your feature or enhancement.
+3. Make your changes and commit them with descriptive commit messages.
+4. Push your changes to your fork.
+5. Submit a pull request, describing your changes in detail and explaining why they are necessary or beneficial.
 
-Please email me at [shortzach396@gmailcom](mailto:shortzach396@gmailcom)
-Link to my [Github](https://www.github.com/zachmshort)
+## Tests
+
+To test the README Generator, follow these steps:
+
+1. Ensure the README Generator is installed and configured as described in the Installation and Usage sections.
+2. Run the application using the command `node index.js`.
+3. Answer the prompted questions with various inputs to test different scenarios.
+4. Verify that the generated README file meets your expectations and contains accurate and complete information about your project.
+
+## Questions
+
+If you have any questions or need assistance with the README Generator, please feel free to contact me:
+
+- Email: [email@example.com](mailto:zach.short@fantomworks.com)
+- GitHub: [username](https://github.com/zachmshort)
+
