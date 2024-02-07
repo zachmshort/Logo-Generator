@@ -1,8 +1,8 @@
-# Project
+# a
 
 ![License Badge](https://img.shields.io/badge/MIT-brightgreen)
 
-Zach contributed to this project.
+a contributed to this project.
 
 **Important Notice:** This project is released under the MIT license.
 
@@ -16,20 +16,20 @@ Zach contributed to this project.
 
 
 ### Application Description
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+a
 
 ### Installation Instructions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+a
 
 ### Usage Info
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+a
 
 ### Contribution Guidelines
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+a
 
 ### Testing Instructions
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac libero in felis fringilla vulputate a vitae justo. Proin condimentum semper ligula, eu luctus tellus tincidunt eu. Ut suscipit diam in elit commodo, ac suscipit sem suscipit. Integer ullamcorper massa eu nibh bibendum, id hendrerit felis bibendum.
+a
 
 #### Questions?
-Please email me at [shortzach396@gmailcom](mailto:shortzach396@gmailcom)
-Link to my [Github](https://www.github.com/zachmshort)
+Please email me at [a](mailto:a)
+Link to my [Github](https://www.github.com/a)
