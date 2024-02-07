@@ -57,3 +57,7 @@ If you have any questions or need assistance with the README Generator, please f
 - Email: [zach.short@fantomworks.com](mailto:zach.short@fantomworks.com)
 - GitHub: [zachmshort](https://github.com/zachmshort)
 
+## Video Displaying Functionality 
+
+https://www.loom.com/share/f73ae2967986466bae3ab647142dc7a1
+
