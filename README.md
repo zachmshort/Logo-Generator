@@ -54,6 +54,6 @@ To test the README Generator, follow these steps:
 
 If you have any questions or need assistance with the README Generator, please feel free to contact me:
 
-- Email: [email@example.com](mailto:zach.short@fantomworks.com)
-- GitHub: [username](https://github.com/zachmshort)
+- Email: [zach.short@fantomworks.com](mailto:zach.short@fantomworks.com)
+- GitHub: [zachmshort](https://github.com/zachmshort)
 
